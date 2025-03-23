@@ -16,8 +16,7 @@
 
 .section-who-we-are {
 
-    background-color: #f7b31d;
-    border-radius: 15px;
+   position: relative;
 
 }
 
@@ -34,7 +33,7 @@
     font-family: "bryant-web-alternate", sans-serif;
     font-weight: 500;
     font-style: normal;
-
+    position: absolute;
 }
 
 .onbike-navbar {
@@ -49,21 +48,12 @@
 .image-section {
     position: relative;
     width: 100%; /* Full width of the column */
-    height: 66vh; /* Set the height to full screen height or adjust as needed */
+    height: 75vh; /* Set the height to full screen height or adjust as needed */
+    z-index: -1;
 }
 
 .image-section img {
-    width: 100%; /* Image stretches to fit the width */
-    height: 100%; /* Image covers the height of the column */
-    object-fit: cover; /* Ensures the image maintains its aspect ratio while filling the area */
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
 }
-/* .image-section {
-
-    position: relative;
-    background-image: url('images/background-whoweare.png');
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
-    width: 100%;
-} */
-
