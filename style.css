@@ -1,22 +1,69 @@
-.who-we-are {
+/* html, body {
+
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+
+} */
+.headline-who-we-are {
 
     font-family: "pain-de-mie", sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding-top: 2vw;;
 
 }
 
 .section-who-we-are {
 
     background-color: #f7b31d;
+    border-radius: 15px;
 
 }
 
 .navbar {
 
-    font-family: "pain-de-mie", sans-serif;
-    font-weight: 400;
+    font-family: "bryant-web", sans-serif;
+    font-weight: 700;
     font-style: normal;
     
 }
+
+.paragraph-who-we-are {
+
+    font-family: "bryant-web-alternate", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.onbike-navbar {
+
+    margin-top: 2vw;
+    /* margin-left: -8vw; */
+    /*background-color: #ef7f80;*/
+    border-radius: 15px;
+}
+
+
+.image-section {
+    position: relative;
+    width: 100%; /* Full width of the column */
+    height: 66vh; /* Set the height to full screen height or adjust as needed */
+}
+
+.image-section img {
+    width: 100%; /* Image stretches to fit the width */
+    height: 100%; /* Image covers the height of the column */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio while filling the area */
+}
+/* .image-section {
+
+    position: relative;
+    background-image: url('images/background-whoweare.png');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+} */
 
