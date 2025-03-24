@@ -16,7 +16,8 @@
 
 .section-who-we-are {
 
-   position: relative;
+   background-color: #feca1d;
+
 
 }
 
@@ -29,15 +30,6 @@
     
 }
 
-.paragraph-who-we-are {
-
-    font-family: "bryant-web-alternate", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    position: absolute;
-    margin-top: 20%;
-}
-
 .onbike-navbar {
 
     margin-top: 2vw;
@@ -48,22 +40,33 @@
 
 
 .image-section {
-    position: relative;
-    width: 100%; 
+
+    width: 170%; 
     height: 75vh;
-    z-index: 1;
+    margin-bottom: 7vw;
+
 }
 
 .image-section img {
+
     width: 100%; 
     height: 100%; 
     object-fit: contain;
+    border: 0.5px solid grey;
+    border-radius: 20px;
+
 }
 
-.row1 {
+.paragraph-who-we-are {
 
-    background-color: #feca1d;
-    font-family: "bryant-web", sans-serif;
-    font-weight: 700;
+    font-family: "bryant-web-alternate", sans-serif;
+    font-weight: 500;
     font-style: normal;
+    
 }
+
+.row2 {
+
+    border-radius: 20px;
+}
+

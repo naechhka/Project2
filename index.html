@@ -1,100 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OnBike</title>
-    <link rel="stylesheet" href="https://use.typekit.net/bui7dgi.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/bootstrap.min.js"></script>
-    <style>
-        /* Container for image with relative positioning 
-        .image-container {
-            position: relative;
-            width: 100%;
-        }
 
-        /* Make the image responsive */
-       
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OnBike</title>
+  <link rel="stylesheet" href="https://use.typekit.net/bui7dgi.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
 
-        /* Navbar styling 
-        .custom-navbar {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 10; /* Ensures navbar stays on top 
-            background-color: transparent !important; /* Make the navbar background transparent 
-            box-shadow: none !important; /* Remove shadow 
-        }*/
-
-    </style>
 </head>
+
 <body>
 
-    <div class="image-container">
-    <nav class="navbar navbar-expand-lg custom-navbar">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="images/logo-bike.png" class="img-fluid w-50">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav onbike-navbar">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Guide</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="locations.html">Locations</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-
-    
+  <nav class="navbar navbar-expand-lg custom-navbar">
     <div class="container-fluid">
-    <div class="row section row1">
-
-      <div class="col-12 col-md-6 text-section">
-        <h1 class="text-center">Renting a Bike is a Piece of Cake!</h1>
-        
-    </div> 
+      <a class="navbar-brand" href="#">
+        <img src="images/logo-bike.png" class="img-fluid w-50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav onbike-navbar ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="guide.html">Guide</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="locations.html">Locations</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+
+
+  <!-- First row -->
+
+  <div class="container">
+
+    <div class="row d-flex justify-content-center">
+
+      <div class="col-12 col-md-6 image-section">
+        <img src="images/intro-image.png" alt="Example Image" class="img-fluid">
+      </div>
+
     </div>
 
-    <div class="container-fluid">
-        <div class="row section">
 
-          <div class="col-12 col-md-6 image-section">
-            <h1 class="headline-who-we-are text-center">Who we are?</h1>
-           <!-- <p class="fs-5 paragraph-who-we-are">
-              Hey there! At OnBike, we’re all about making it easier (and more fun!) to get around town. Whether you’re zipping to work, meeting up with friends, or just cruising for fun, our easy-to-use bike-sharing service has you covered. We’re here to help you reduce the traffic, breathe a little easier, and enjoy the ride—all while doing something good for the planet. So hop on and let’s ride toward a greener, happier city together!
-            </p>-->
-            <img src="images/who-we-are.png" alt="Example Image" class="img-fluid">
-            
-          </div>
-          <div class="col-12 col-md-6 text-section section-who-we-are">
-            <h1 class="text-center"></h1>
-            <!--<p class="fs-5 paragraph-who-we-are">
-              Hey there! At OnBike, we’re all about making it easier (and more fun!) to get around town. Whether you’re zipping to work, meeting up with friends, or just cruising for fun, our easy-to-use bike-sharing service has you covered. We’re here to help you reduce the traffic, breathe a little easier, and enjoy the ride—all while doing something good for the planet. So hop on and let’s ride toward a greener, happier city together!
-            </p>-->
-          </div>
-        </div>
+
+    <!-- Second row -->
+
+    <div class="row d-flex justify-content-center">
+
+      <div class="col-12 col-md-6 section-who-we-are row2 text-center">
+        <h1 class="headline-who-we-are">Who we are?</h1>
+        <p class="fs-5 paragraph-who-we-are">
+          Hey there! At OnBike, we’re all about making it easier (and more fun!) to get around town. Whether you’re
+          zipping to work, meeting up with friends, or just cruising for fun, our easy-to-use bike-sharing service has
+          you covered. We’re here to help you reduce the traffic, breathe a little easier, and enjoy the ride—all while
+          doing something good for the planet. So hop on and let’s ride toward a greener, happier city together!
+        </p>
+      </div>
+
     </div>
 
-    <!-- <img src="images/background-image.jpg" class="img-fluid">*/ -->
-      
+
+
+  </div>
+
+
+
+
+
+
 
 </body>
+
 </html>
