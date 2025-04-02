@@ -66,12 +66,7 @@
 }
 
 
-/* .container-row2 {
 
-    background-image: url("images/background-image-who-are-we.png");
-    background-size: cover, contain;
-    background-repeat: no-repeat;
-} */
 .row2 {
 
     border-radius: 20px;
@@ -83,7 +78,7 @@
     height: 78%;
 }
 
-.text-3rd-row {
+.text-4rd-row {
 
     font-family: "pain-de-mie", sans-serif;
     font-weight: 400;
@@ -95,13 +90,53 @@
 
 }
 
+.container-row3 {
+
+    background-color: #ececec;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+
+.text-3rd-row {
+
+    font-family: "pain-de-mie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 2vw;
+    color: black;
+
+}
+
+.text-price {
+
+    font-family: "bryant-web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.text-price-box {
+
+    font-family: "bryant-web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.price-box {
+
+    background-color: #feca1d;
+    width: 60%;
+
+}
+
 .mockups {
 
     border-radius: 10px;
 
 }
 
-.row4 {
+.row5 {
 
     /* background-color: #ececec; */
     margin-bottom: 5vw;
@@ -117,13 +152,13 @@
 
 .app-store-image {
 
-    width: 30%;
+    width: 10%;
     margin-bottom: 1%;
 }
 
 .google-play-image {
 
-    width: 30%;
+    width: 10%;
 }
 
 .download-onbike {
@@ -135,11 +170,11 @@
 
 }
 
-.downloads {
+/* .downloads {
 
-    background-image: url("images/footer-background.png");
+    background-image: url("images/footer-background1.png");
     background-size: cover, contain;
-}
+} */
 
 
 /* .footer {
@@ -199,5 +234,12 @@
 .icon-sect {
 
     background-color: #ececec;
+
+}
+
+.set-back {
+
+    background-image: url("images/yellow-bikes.jpeg");
+    background-size: cover, contain;
 
 }
