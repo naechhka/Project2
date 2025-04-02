@@ -5,6 +5,12 @@
     padding: 0;
 
 } */
+
+.footer-text {
+
+    text-decoration: none;
+    color: black;
+}
 .headline-who-we-are {
 
     font-family: "pain-de-mie", sans-serif;
@@ -17,9 +23,6 @@
 .section-who-we-are {
 
    background-color:  #f6ef8f;
-   
-
-   /* margin-top: 10vw; */
    margin: 0;
 
 }
@@ -74,8 +77,11 @@
 
 }
 
-.nastya-image {
-    height: 78%;
+.set-back {
+
+    background-image: url("images/yellow-bikes.jpeg");
+    background-size: cover, contain;
+
 }
 
 .text-4rd-row {
@@ -152,13 +158,13 @@
 
 .app-store-image {
 
-    width: 100%;
+    width: 50%;
     margin-bottom: 1%;
 }
 
 .google-play-image {
 
-    width: 100%;
+    width: 50%;
 }
 
 .download-onbike {
@@ -169,15 +175,13 @@
 
 }
 
-.a {
-    margin: 0;
-    padding: 0;
-}
+
 /* .downloads {
 
     background-image: url("images/footer-background1.png");
     background-size: cover, contain;
 } */
+
 
 
 /* .footer {
@@ -222,27 +226,28 @@
 
 }
 
-
-.icons {
-
-    width: 10%;
-    background-color: #f6ef8f;
-    /* margin-left: 9vw; */
-}
-
-
-
-
-
-.icon-sect {
+.guide-sect {
 
     background-color: #ececec;
 
 }
 
-.set-back {
 
-    background-image: url("images/yellow-bikes.jpeg");
-    background-size: cover, contain;
+.icons {
+
+    width: 10%;
+    background-color: #f6ef8f;
 
 }
+
+.guide-p {
+
+    font-family: "bryant-web-alternate", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 5vw;
+
+
+}
+
+
